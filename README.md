@@ -14,13 +14,15 @@ A sample app that display list from API and DB. The purpose of this project to i
  11. JetPack Libraries
  
 ## ScreensShots 
-<img alt="MVVM Architecture" height="300px" src="" />
+<img alt="MVVM Architecture" height="300px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120641.png" />
+<img alt="MVVM Architecture" height="300px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120651.png" />
+<img alt="MVVM Architecture" height="300px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120658.png" />
 
 ## Architecture
-<img alt="MVVM Architecture" height="700px" src="" />
+<img alt="MVVM Architecture" height="700px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Architecture_design.png" />
 
 ## NetworkBoundResource
-<img alt="MVVM Architecture" height="500px" src="" />
+<img alt="MVVM Architecture" height="500px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/network-bound-resource.png" />
 
 ### Dependencies used
 
