@@ -14,7 +14,7 @@ A sample app that display list from API and DB. The purpose of this project to i
  11. JetPack Libraries
  
 ## ScreensShots 
-<img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120641.png" height="250px"/> <img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120651.png" width="250px"/> <img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120658.png" width="250px"/> 
+<img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120641.png" height="250px"/> <img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120651.png" height="250px"/> <img src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Screenshot_20200731-120658.png" height="250px"/> 
 
 ## Architecture
 <img alt="MVVM Architecture" height="700px" src="https://github.com/sunil0354/KotlinMVVMArchitecturePattern/blob/master/screens/Architecture_design.png" />
