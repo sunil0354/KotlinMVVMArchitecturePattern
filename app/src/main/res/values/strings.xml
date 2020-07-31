@@ -1,0 +1,21 @@
+<resources>
+    <!-- App details -->
+    <string name="app_name">Sunil0354Demo</string>
+
+    <!-- Empty -->
+    <string name="search_here">Search Here</string>
+    <string name="unknown_error">Something went wrong, Please try again</string>
+    <string name="products">Products</string>
+    <string name="you_can_add">"This product is already in you cart."</string>
+    <string name="item_has_been">Product has been added in the cart.</string>
+    <string name="pay">Pay</string>
+    <string name="internet_error">Not Connected to Internet</string>
+    <string name="retry">Retry</string>
+    <string name="remove_from_cart">Remove</string>
+    <string name="cart" >Cart</string>
+    <string name="no_items_in">Your cart is empty.</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="thankyou_for_order">Thank you for ordering.</string>
+    <string name="history">Order history</string>
+    <string name="order_history">Order History</string>
+</resources>

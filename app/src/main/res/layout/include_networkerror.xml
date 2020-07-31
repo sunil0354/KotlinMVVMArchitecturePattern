@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rlInternetError"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/color_white">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/internet_error"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_18sp" />
+
+        <TextView
+            android:id="@+id/tvRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtitle"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="@dimen/_50dp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingRight="@dimen/_50dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:text="@string/retry"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_18sp" />
+    </RelativeLayout>
+</layout>

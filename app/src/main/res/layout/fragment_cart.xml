@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Inside the layout tag it is possible to set the data tag in order to set one or many variables. For this example we are having an User property-->
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="user"
+            type="com.sunil0354.demo.ui.main.MainViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tvPay"
+            android:orientation="vertical">
+            <include layout="@layout/include_top_header" />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvEmptyCart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_items_in"
+                android:visibility="gone"
+                android:textColor="@color/colorBlack"
+                android:background="@color/color_white"
+                android:textSize="@dimen/_18sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5dp"
+                tools:listitem="@layout/item_main" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/_18sp"
+            android:paddingTop="@dimen/_10dp"
+            android:paddingBottom="@dimen/_10dp"
+            android:paddingLeft="@dimen/_50dp"
+            android:paddingRight="@dimen/_50dp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_5dp"
+            android:layout_marginTop="@dimen/_5dp"
+            android:layout_alignParentBottom="true">
+        </TextView>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+</layout>
